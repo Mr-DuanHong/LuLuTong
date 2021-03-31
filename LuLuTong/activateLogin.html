@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>激活-登录</title>
+    <!-- 此处注意，底层的，如API、插件写在上边；本网页的写在最下方。 -->
+    <link rel="stylesheet" href="./common.css?v1">
+    <link rel="stylesheet" href="./Plug/statusBubble/statusBubble.css?v1">
+    <link rel="stylesheet" href="./Plug/button/button.css?v1">
+    <link rel="stylesheet" href="./Plug/hint/hint.css">
+    <link rel="stylesheet" href="./Plug/selectHint/selectHint.css">
+    <link rel="stylesheet" href="./CSS/iconfont.css">
+    <link rel="stylesheet" href="./CSS/activateLogin.css?v1.24">
+</head>
+<body>
+    <header>
+        <ul class="statusBubble">
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble statusBubble_current">1</span>
+                <span class="statusBubble_item_status">卡号密码</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">2</span>
+                <span class="statusBubble_item_status">阅读条款</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">3</span>
+                <span class="statusBubble_item_status">信息填写</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">4</span>
+                <span class="statusBubble_item_status">完成激活</span>
+            </li>
+        </ul>
+    </header>
+    <article>
+        <div class="wrap">
+            <form action="" method="POST" class="activateLogin_form">
+                <!-- hidden的input说明登录类型 -->
+                <input type="hidden" name="act" class="activateLogin_act" value="active">
+                <input type="text" name="card_id" class="activateLogin_cardId" placeholder="卡号">
+                <input type="password" name="card_password" class="activateLogin_password" placeholder="密码"><span class="iconfont icon-icon_eye-close"></span>           
+                <input type="text" name="virify_code" class="activateLogin_authCode" placeholder="验证码">
+                <img class="activateLogin_virifyCode" src="./API/virifyCode2/validatecode.php" alt="loadfailed">
+            </form>
+            <button class="button activateLogin_nextBtn">下一步</button>
+            <div class="hint hintWran activateLogin_hint"></div>
+            <!-- 选择提示框，selectHint_onmask代表启动遮罩，即禁用其他交互 -->
+            <div class="selectHint_mask"></div>
+            <div class="selectHint_hint activateLogin_selectHint">
+                <div class="selectHint_hint_content activateLogin_selectHint_content">该卡已被激活，请选择下一步操作：</div>
+                <div class="selectHint_hint_content_button activateLogin_selectHint_content_button">
+                    <button class="button activateLogin_selectHint_claim">理赔查询</button>
+                    <button class="button activateLogin_selectHint_information">信息查询</button>
+                    <button class="button activateLogin_selectHint_index">主页</button>
+                    <button class="button forbidButton selectHint_hint_cancel activateLogin_selectHint_cancel">取消</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <script src="./Ajax.js?v1.1"></script>
+    <script src="./Plug/hint/hint.js"></script>
+    <script src="./Plug/selectHint/selectHint.js?v1"></script>
+    <script src="./JS/activateLogin.js?v1.32"></script>
+</body>
+</html>

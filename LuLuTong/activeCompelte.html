@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>激活成功</title>
+    <link rel="stylesheet" href="./common.css?v1">
+    <link rel="stylesheet" href="./Plug/button/button.css?v1">
+    <link rel="stylesheet" href="./Plug/statusBubble/statusBubble.css?v1">
+    <link rel="stylesheet" href="./CSS/activeCompelte.css">
+</head>
+<body>
+    <header>
+        <ul class="statusBubble">
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">1</span>
+                <span class="statusBubble_item_status">卡号密码</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">2</span>
+                <span class="statusBubble_item_status">阅读条款</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">3</span>
+                <span class="statusBubble_item_status">信息填写</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble statusBubble_current">4</span>
+                <span class="statusBubble_item_status">完成激活</span>
+            </li>
+        </ul>
+    </header>
+    <article>
+        <div class="actComHint">
+            <p>激活成功!请选择接下来的操作：</p>
+        </div>
+        <div class="actCom_buttonContainer">
+            <button class="button actCom_button actCom_searchButton">信息查询页</button>
+            <button class="button actCom_button actCom_claimButton">理赔查询页</button>
+            <button class="button actCom_button actCom_returnIndex">主页</button>
+        </div>
+    </article>
+</body>
+<script src="./JS/activeCompelte.js"></script>
+</html>

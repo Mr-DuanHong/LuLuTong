@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>理赔列表</title>
+    <link rel="stylesheet" href="./common.css?v1">
+    <link rel="stylesheet" href="./Plug/button/button.css?v1">
+    <!-- <link rel="stylesheet" href="./Plug/hint/hint.css?v1"> -->
+    <link rel="stylesheet" href="./Plug/selectHint/selectHint.css">
+    <link rel="stylesheet" href="./CSS/claimList.css?v1">
+</head>
+</head>
+<body>
+    <header>
+        <p>理赔状态列表</p>
+    </header>
+    <article class="claimList">
+        <div class="claimList_cardId claimList_top">卡号 : <span></span></div>
+        <div class="claimList_item">
+            <!-- <div class="claimList_claimInfor claimList_top">暂无理赔信息</div>
+            <div class="claimList_top_gray claimList_item_title">理赔1</div>
+            <div class="claimList_top">编号 : </div>
+            <div class="claimList_top_gray">事故原因 : </div>
+            <div class="claimList_top">出险时间 : </div>
+            <div class="claimList_top_gray">案件状态 : </div>
+            <div class="claimList_top">完成时间 :</div> -->
+        </div>
+        <div class="claimList_buttonContainer">
+            <button class="button claimList_button claimList_nextButton">查看投保信息</button><br>
+            <button class="button claimList_button forbidButton claimList_exitButton">安全退出</button>
+        </div>
+        <div class="selectHint_mask"></div>
+        <div class="selectHint_hint claimList_selectHint_hint">
+            <div class="selectHint_hint_content"></div>
+            <div class="selectHint_hint_content_button">
+                <button class="button forbidButton selectHint_hint_cancel">取消</button>
+                <button class="button claimList_selectHint_hint_ensure">确认</button>
+            </div>
+        </div>
+    </article>
+</body>
+<script src="./Ajax.js?v1"></script>
+<script src="./Plug/selectHint/selectHint.js"></script>
+<script src="./JS/claimList.js?v1.1"></script>
+</html>

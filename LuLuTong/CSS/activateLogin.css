@@ -1,0 +1,65 @@
+article{
+    padding:8rem 0;
+}
+.wrap{
+    width: 84rem;
+    margin: 0 auto;
+    position: relative;
+}
+/* input相关样式 */
+article input{
+    height: 10.6rem;
+    margin:4rem 0;
+    font-size: 4.8rem;
+    text-indent: 1em;
+}
+input::placeholder{
+    font-size: 4.8rem;
+    text-indent: 1em;
+    color: #777575de;
+}
+.activateLogin_cardId{
+    /* 卡号 */
+    width: 84rem;
+    border:1px solid #767676;
+}
+.activateLogin_password{
+    /* 密码 */
+    float: left;
+    width: 70rem;
+    border:1px solid #767676;
+}
+.iconfont{
+    margin: 5rem 0 0 2rem;
+    display: inline-block;
+    line-height: 10.6rem;
+    font-size: 10.6rem;
+    color: #b8b4b4;
+}
+.activateLogin_authCode{
+    /* 验证码 */
+    float: left;
+    width: 48rem;
+    border:1px solid #767676;
+}
+.activateLogin_virifyCode{
+    /* 验证码图片 */
+    float: left;
+    height: 11rem;
+    margin:4.2rem 0 0 3rem;
+}
+/* 按钮 */
+.activateLogin_nextBtn{
+    width: 84rem;
+    line-height: 8.6rem;
+    margin-top:4rem;
+}
+/* 提示 */
+.activateLogin_hint{
+    top:100rem;
+    display: none;
+}
+/* 选择框 */
+.activateLogin_selectHint{
+    top:65rem;
+}

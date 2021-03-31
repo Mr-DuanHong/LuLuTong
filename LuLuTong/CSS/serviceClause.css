@@ -1,0 +1,118 @@
+/* 外容器 */
+.serCla{
+    font-size: 3.2rem;
+    padding-top: 4rem;
+}
+/* 外容器内所有Div */
+.serCla div {
+    padding: 2.6rem 5rem;
+}
+/* 白底 */
+.backWhite{
+    background-color: #F7F7F7;
+}
+
+
+
+/* 其他 */
+.serCla .serClaTitle{
+    display: flex;
+    align-items: center;
+}
+.serCla .serClaTitle h3{
+    font-size: 6rem;
+    font-weight: normal;
+}
+.serCla .serClaTitle p{
+    margin-left: 6rem;
+    text-align: center;
+}
+.serCla .serClaTitle p span{
+    color: #F9C64B;
+    font-size: 4.5rem;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+/* 橘色金额 */
+.serCla .serCla_orangeMoney{
+    color: #F9C64B;
+    display: inline-block;
+    text-indent: 1.5em;
+    font-size: 5rem;
+}
+
+/* 阅读条款 */
+.serCla .serClaClause{
+    height: 62.5rem;
+    font-size: 3rem;
+    text-indent: 2em;
+    line-height: 2.5em;
+    /* 溢出隐藏 */
+    overflow: scroll;
+}
+.serCla .serClaClause p{
+    margin-bottom: 3rem;
+}
+.serCla .serClaClause .serClaClause_title{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+.serCla .serClaClause b{
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+/* 声明与授权 */
+.serCla .serClaClause_declaration{
+    font-size: 3rem;
+    color: #9A9697;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.serCla .serClaClause_declaration h6{
+    font-size: 3.2rem;
+    color: #111111;
+    font-weight: normal;
+    margin: 3rem 0;
+}
+.serCla .serClaClause_declaration p{
+    text-indent: 2em;
+}
+
+/* 保险条款同意 */
+.serCla .serClaClause_agreeCla span{
+    color: #0D1075;
+    display: inline-block;
+    text-indent: 1em;
+}
+.serCla .serClaClause_agreeCla_black span{
+    color: #111111;
+}
+
+/* 按钮 */
+.serCla_buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.serCla_button{
+    margin-bottom:3rem;
+    font-size: 3.5rem;
+    width: 84rem;
+    padding:3rem;
+}
+
+/* 提示框 */
+.clause_hint{
+    width: 84rem;
+    position: absolute;
+    left: 8rem;
+    top: 192rem;
+    display: none;
+}
+
+/* 选择框 */
+.clause_selectHint_hint{
+    top:65rem;
+}

@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-items: center;
+}
+header p{
+    font-size:5rem;
+    padding: 2rem 8rem;
+}
+/* 灰白条 */
+.claimList .claimList_top {
+    font-size:3.5rem;
+    padding: 2.6rem 5rem;
+    background-color: #F7F7F7;
+}
+.claimList .claimList_top_gray{
+    font-size:3.5rem;
+    padding: 2.6rem 5rem;
+    background-color: #EDEDED;
+}
+.claimList .claimList_claimInfor{
+    background-color: #EDEDED;
+}
+.claimList .claimList_item_title{
+    font-size: 4rem;
+}
+
+/* 按钮 */
+.claimList_buttonContainer{
+    margin: 8rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.claimList_button{
+    margin-bottom:4rem;
+    font-size: 3.5rem;
+    width: 86rem;
+    padding:3rem;
+}
+
+/* 选择框 */
+.claimList_selectHint_hint{
+    top:65rem;
+}

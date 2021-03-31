@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择提示框</title>
+    <link rel="stylesheet" href="./selectHint.css?v1">
+    <style>
+        html{
+            font-size: 1vw;
+        }
+    </style>
+</head>
+<body>
+    <button class="test1">弹出</button>
+    <!-- 选择提示框，selectHint_mask加上类名selectHint_onmask代表启动遮罩，即禁用其他交互 -->
+    <div class="selectHint_mask"></div>
+    <div class="selectHint_hint">
+        <div class="selectHint_hint_content">提示文本</div>
+        <div class="selectHint_hint_content_button">
+            <button class="selectHint_hint_cancel">取消</button>
+            <button>按钮2</button>
+            <button>按钮3</button>
+        </div>
+    </div>
+</body>
+<script src="./selectHint.js"></script>
+<script>
+    let testBtn = document.querySelector(".test1");
+    let selecthintDom = document.querySelector(".selectHint_hint");
+    testBtn.onclick = function () {
+        showSelectHint(selecthintDom,"提示文本提示文本");
+    }
+</script>
+</html>

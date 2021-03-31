@@ -1,0 +1,24 @@
+/* 通用 */
+*{padding:0;margin:0;}
+ul,ol{list-style: none;}
+img{display: block;}
+a{text-decoration: none;}
+
+html{
+    font-size: 1vw;
+}
+body{
+    background-color: #EFEFF4;
+}
+
+/* 页眉 */
+header{
+    height: 12.5rem;
+    border-bottom: .5vw solid #C6C6C6;
+}
+/* 清浮动 */
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}

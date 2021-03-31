@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投保信息</title>
+    <link rel="stylesheet" href="./common.css?v1">
+    <link rel="stylesheet" href="./Plug/button/button.css?v1">
+    <!-- <link rel="stylesheet" href="./Plug/hint/hint.css?v1"> -->
+    <link rel="stylesheet" href="./Plug/selectHint/selectHint.css">
+    <link rel="stylesheet" href="./CSS/cardInformation.css?v1.14">
+</head>
+</head>
+<body>
+    <header>
+        <p>投保信息</p>
+    </header>
+    <article class="cardInfor">
+        <div class="cardInforTitle backWhite">
+            <h3 class="cardInforTitle_title">畅行无忧<span class="cardInfor_cardClass"></span>卡</h3>
+            <p class="cardInforTitle_price">面值<span class="cardInfor_orangeMoney"></span>元</p>
+        </div>
+        <div class="cardInfor_cardId cardInfor_top">本卡卡号 : <span>519400001195</span></div>
+        <div class="cardInfor_gray cardInfor_top">本卡激活日期 : 2020-01-21</div>
+        <div class=" cardInfor_top">本卡保险生效日期 : 2020-01-21</div>
+        <div class="cardInfor_gray cardInfor_top">本卡保额信息 : </div>
+        <div class="cardInfor_top cardInfor_amountOne">交通意外身故、伤残最高保险金额 <span class="cardInfor_orangeMoney"></span>元</div>
+        <div class="cardInfor_gray cardInfor_top cardInfor_amountTwo">交通意外医疗最高保险金额 <span class="cardInfor_orangeMoney"></span>元</div>
+        <div class="cardInfor_spe">
+            <div class="cardInfor_spe_buttonContainer">
+                <button class="button cardInfor_spe_button cardInfor_speBtn_applicant cardInfor_spe_button_current">投保人</button>
+                <button class="button cardInfor_spe_button cardInfor_speBtn_insured">被保人</button>
+                <button class="button cardInfor_spe_button cardInfor_speBtn_benefi">受益人</button>
+            </div>
+            <div class="cardInfor_loading">loading……</div>
+            <div class="cardInfor_spe_itemContainer cardInfor_spe_show"></div>
+        </div>
+        <div class="cardInfor_buttonContainer">
+            <button class="button cardInfor_button cardInfor_nextButton">查看理赔信息</button>
+            <button class="button cardInfor_button forbidButton cardInfor_exitButton">安全退出</button>
+        </div>
+        <div class="selectHint_mask"></div>
+        <div class="selectHint_hint cardInfor_selectHint_hint">
+            <div class="selectHint_hint_content">提示文本</div>
+            <div class="selectHint_hint_content_button">
+                <button class="button forbidButton selectHint_hint_cancel">取消</button>
+                <button class="button cardInfor_selectHint_hint_ensure">确认</button>
+            </div>
+        </div>
+    </article>
+</body>
+<script src="./Ajax.js?v1.1"></script>
+<script src="./Plug/selectHint/selectHint.js"></script>
+<script src="./JS/cardInformation.js?v1.14"></script>
+</html>

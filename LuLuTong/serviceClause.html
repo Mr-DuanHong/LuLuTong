@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务条款</title>
+    <link rel="stylesheet" href="./common.css?v1">
+    <link rel="stylesheet" href="./Plug/statusBubble/statusBubble.css?v1">
+    <link rel="stylesheet" href="./Plug/button/button.css?v1">
+    <link rel="stylesheet" href="./Plug/hint/hint.css">
+    <link rel="stylesheet" href="./Plug/selectHint/selectHint.css">
+    <link rel="stylesheet" href="./CSS/serviceClause.css?v1.1">
+</head>
+<body>
+    <header>
+        <ul class="statusBubble">
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">1</span>
+                <span class="statusBubble_item_status">卡号密码</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble statusBubble_current">2</span>
+                <span class="statusBubble_item_status">阅读条款</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">3</span>
+                <span class="statusBubble_item_status">信息填写</span>
+            </li>
+            <li class="statusBubble_item">
+                <span class="statusBubble_item_bubble">4</span>
+                <span class="statusBubble_item_status">完成激活</span>
+            </li>
+        </ul>
+    </header>
+    <article class="serCla">
+        <div class="serClaTitle backWhite">
+                <h3 class="serClaTitle_title">畅行无忧<span class="serCla_cardClass"></span>卡</h3>
+                <p class="serClaTitle_price">面值<span></span>元</p>
+        </div>
+        <div>注意: 18-70岁限激活2份,1-17岁限激活0份</div>
+        <div class="backWhite">保额信息</div>
+        <div>交通意外身故、伤残最高保险金额<span class="serCla_orangeMoney"></span>元</div>
+        <div class="backWhite">交通意外医疗最高保额金额<span class="serCla_orangeMoney"></span>元</div>
+        <div class="serClaClause">
+            <p class="serClaClause_title">激活阅读条款</p>
+            <p>
+                <b>畅行无忧<span class="serCla_cardClass"></span>卡</b> 采用<b>《国寿通泰交通意外伤害保险 (A款) (2013版) 利益条款》、《国寿附加通泰交通意外费用补偿医疗保险利益条款》、《中国人寿 保险股份有限公司短期保险基本条款》</b>
+                和特别约定条款。<br>投保范围:
+            </p>
+            <p class="serClaClause_speClause">凡年龄在18周岁至70周岁的身 体健康者，均可以作为被保险人和投保人(激活人)。凡年龄在18周岁至70周岁的身 体健康者，均可以作为被保险人和投保人(激活人)。凡年龄在18周岁至70周岁的身 体健康者，均可以作为被保险人和投保人(激活人)。凡年龄在18周岁至70周岁的身 体健康者，均可以作为被保险人和投保人(激活人)。凡年龄在18周岁至70周岁的身 体健康者，均可以作为被保险人和投保人(激活人)。</p>
+        </div>
+        <div class="backWhite">保险条款</div>
+        <div class="serClaClause_agreeCla"><label><input type="checkbox" class="serClaClause_agree1"><span>中国人寿保险股份有限公司短期保险基本条款</span></label></div>
+        <div class="backWhite serClaClause_agreeCla"><label><input type="checkbox" class="serClaClause_agree2"><span>国寿通泰交通意外伤害保险（A款）（2013版）利益条款</span></label></div>
+        <div class="serClaClause_agreeCla"><label><input type="checkbox" class="serClaClause_agree3"><span>国寿附加通泰交通意外费用补偿医疗保险利益条款</span></label></div>
+        <div class="backWhite serClaClause_agreeCla serClaClause_agreeCla_black"><label><input type="checkbox" class="serClaClause_agree4"><span>阅读全部保险条款</span></label></div>
+        <div class="serClaClause_declaration">
+            <h6>声明与授权：</h6> 
+            <p>投保人本人已阅读本服务卡内容和条款内容，贵公司 已对条款内容履行了说明义务，并对责任免除条款、特别约定条款、职业除外条款履行了明确说明义务，本人同意 接受并遵守上述内容，自愿投保。本人谨此授权凡知道或 拥有任何有关本人健康及其它情况的任何医生、医院、保 险公司、其他机构人士，均可将有关资料提供给贵公司。</p>
+        </div>
+        <div class="serCla_buttonContainer">
+            <button class="button serCla_button serCla_nextButton">我已阅读并同意上述产品内容及相关条款</button><br>
+            <button class="button serCla_button forbidButton serCla_exitButton">安全退出</button>
+        </div>
+        <div class="hint hintWran clause_hint"></div>
+        <div class="selectHint_mask"></div>
+        <div class="selectHint_hint clause_selectHint_hint">
+            <div class="selectHint_hint_content">提示文本</div>
+            <div class="selectHint_hint_content_button">
+                <button class="button forbidButton selectHint_hint_cancel">取消</button>
+                <button class="button serCla_selectHint_hint_ensure">确认</button>
+            </div>
+        </div>
+    </article>
+</body>
+<script src="./Plug/hint/hint.js"></script>
+<script src="./Plug/selectHint/selectHint.js"></script>
+<script src="./JS/serviceClause.js?v1.1"></script>
+</html>

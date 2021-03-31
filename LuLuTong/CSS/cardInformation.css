@@ -1,0 +1,117 @@
+header{
+    display: flex;
+    align-items: center;
+}
+header p{
+    font-size:5rem;
+    padding: 2rem 8rem;
+}
+/* 顶部 */
+.cardInfor .cardInforTitle{
+    font-size:3.5rem;
+    padding: 2rem 5rem;
+    display: flex;
+    align-items: center;
+}
+.cardInfor .cardInforTitle h3{
+    font-size: 6rem;
+    font-weight: normal;
+}
+.cardInfor .cardInforTitle p{
+    margin-left: 6rem;
+    text-align: center;
+}
+.cardInfor .cardInforTitle p span{
+    color: #F9C64B;
+    font-size: 4.5rem;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+/* 橘色金额 */
+.cardInfor .cardInfor_orangeMoney{
+    color: #F9C64B;
+    display: inline-block;
+    text-indent: .5em;
+    font-size: 5rem;
+}
+
+
+/* 顶部卡号与被保人年龄区间 */
+.cardInfor .cardInfor_top {
+    font-size:3.5rem;
+    padding: 2.6rem 5rem;
+    background-color: #F7F7F7;
+}
+.cardInfor .cardInfor_gray{
+    background-color: #EDEDED;
+}
+
+/* 上方按钮 */
+.cardInfor_spe_buttonContainer{
+    padding: 4rem 12rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardInfor_spe_buttonContainer .cardInfor_spe_button{
+    margin-bottom:3rem;
+    font-size: 3.5rem;
+    padding:2rem 4rem;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #5AAD13;
+}
+.cardInfor_spe_buttonContainer .cardInfor_spe_button_current{
+    background-color: #5AAD13;
+    color: #FFFFFF;
+}
+/* 下方按钮 */
+.cardInfor_buttonContainer{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardInfor_button{
+    margin-bottom:3rem;
+    font-size: 3.5rem;
+    width: 86rem;
+    padding:3rem;
+}
+
+/* 信息 */
+.cardInfor_spe_itemContainer{
+    background-color: #EFEFF6;
+}
+.cardInfor_spe_item{
+    font-size:3.5rem;
+    padding: 2.6rem 6rem;
+}
+.cardInfor_spe_item .cardInfor_spe_item_title{
+    width: 24rem;
+}
+.cardInfor_spe_item span{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+/* 加载 */
+.cardInfor_loading{
+    font-size: 6rem;
+    text-align: center;
+    padding: 4rem;
+    display: none;
+}
+
+/* 受益人 */
+.cardInfor_spe_show_bene{
+    padding: 8rem 4rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* 选择框 */
+.cardInfor_selectHint_hint{
+    top:75rem;
+}

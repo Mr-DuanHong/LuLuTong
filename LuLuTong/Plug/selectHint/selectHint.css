@@ -1,0 +1,36 @@
+/* 遮罩效果 */
+.selectHint_onmask{
+    width: 100rem;
+    height: 178rem;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+}
+/* 选择框 */
+.selectHint_hint{
+    background-color: #FFFFFF;
+    width: 84rem;
+    box-sizing: border-box;
+    padding:4rem 6rem;
+    font-size: 4rem;
+    color: #767676;
+    text-align: left;
+    border-radius: 1rem;
+    position: fixed;
+    top:0;
+    left:calc(50% - 42rem);
+    display: none;
+}
+/* 选择框按钮 */
+.selectHint_hint_content_button{
+    display: flex;
+    justify-content: space-between;
+}
+.selectHint_hint_content_button button{
+    border: none;
+    float: right;
+    margin: 4rem 0 0;
+    padding: 2rem 4rem;
+    font-size: 3rem;
+}

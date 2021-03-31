@@ -1,0 +1,116 @@
+body { 
+    padding-bottom: 20px;  
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    /* 这代表IPX 的屏幕竖屏模式*/
+    body{
+        padding-bottom: 134px;  
+    }
+}
+
+.activeEntry{
+    font-size: 3.5rem;
+}
+/* 顶部卡号与被保人年龄区间 */
+.activeEntry .activeEntry_top {
+    font-size:3.5rem;
+    padding: 2.6rem 5rem;
+    background-color: #F7F7F7;
+}
+.activeEntry .activeEntry_insured{
+    background-color: #EDEDED;
+}
+
+/* 表单 */
+.activeEntry_form{
+    width: 100%;
+    margin:0 auto;
+    padding:0 4rem;
+    box-sizing: border-box;
+    font-size: 4rem;
+}
+.activeEntry_form_inforHeader{
+    padding: 6rem 0 3rem 4rem;
+    margin-bottom: 3rem;
+    border-bottom: .5rem solid #1CAC09;
+}
+.activeEntry_form_inputDivItem{
+    padding:2rem 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.activeEntry_form_inputDivItem span{
+    display: inline-block;
+    flex-basis:30rem;
+    margin-top:-4rem;
+}
+.activeEntry_form_inputDivItem .activeEntry_form_inputDivItem_age{
+    flex-basis: 0;
+    font-weight: bold;
+    font-size: 5rem;
+    margin: -2rem 4rem;
+}
+.activeEntry_form_inputDivItem input{
+    font-size: 4rem;
+    padding: 2rem;
+    width: 50rem;
+    border: 1px solid #767676;
+}
+.activeEntry_form_inputDivItem input[type='radio']{
+    width: 10rem;
+}
+.activeEntry_form_inputDivItem select{
+    font-size: 4rem;
+    width: 40rem;
+    padding: 2rem 6rem 2rem 2rem;
+}
+/* 受益人 */
+.activeEntry_form_bene{
+    padding: 7rem 4rem 10rem;
+}
+.activeEntry_form_bene p{
+    text-align: center;
+}
+
+/* 生效日期 */
+.activeEntry_form_effectDate{
+    text-align: center;
+}
+.activeEntry_form_effectDate_termInput{
+    margin-left: -4rem;
+    margin-bottom: 6rem;
+}
+/* 按钮 */
+.activeEntry_buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem 0;
+}
+.activeEntry_button{
+    margin-bottom:5rem;
+    font-size: 3.5rem;
+    width: 86rem;
+    padding:3rem;
+}
+
+/* 选择提示框 */
+.activeEntry_selectHint_hint{
+    top: 65rem;
+}
+/* 警告框 */
+.activeEntry_hint{
+    width: 84rem;
+    left:8rem;
+    top:112rem;
+}
+
+/* 提示警告框 */
+.activeEntry_form_inputDivItem .activeEntry_form_inputDivItem_hint{
+    opacity: 0;
+    /* opacity: 1; */
+    color: red;
+    font-size: 2rem;
+    position: relative;
+}

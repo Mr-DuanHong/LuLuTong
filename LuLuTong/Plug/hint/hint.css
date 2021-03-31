@@ -1,0 +1,21 @@
+/* 使用：<div class="hint"></div> ,通过使用固定定位fixed，top与left修改定位*/
+/* 提示文本 */
+.hint{
+    background-color: #5AAD13;
+    width: 64rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding:2rem 4rem;
+    font-size: 4rem;
+    color: #FBE7E8;
+    border-radius: 1rem;
+    /* 定位 */
+    position: fixed;
+    top: 60rem;
+    left:18rem;
+    display: none;
+}
+
+.hintWran{
+    background-color: #EC6A6B;
+}
